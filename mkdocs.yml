@@ -16,10 +16,11 @@ nav:
   - Pwn:
     - Introduction to Pwn: pwn/introduction.md
     - Tools: pwn/tools.md
-    - ROP: pwn/rop/intro.md
-      - ROP 1 Calling Functions: pwn/rop/functions.md
-      - ROP 2 Passing Parameters: pwn/rop/parameters.md
-      - ROP 3 ret2libc: pwn/rop/ret2libc.md
+    - ROP:
+      - ROP 0 - Intro to ROP: pwn/rop/introduction.md
+      - ROP 1 - Calling Functions: pwn/rop/functions.md
+      - ROP 2 - Passing Parameters: pwn/rop/parameters.md
+      - ROP 3 - ret2libc: pwn/rop/ret2libc.md
 theme:
   name: material
   language: en
